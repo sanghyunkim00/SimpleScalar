@@ -3,6 +3,7 @@
 # run.sh
 You can run SimpleScalar as follows.
 ```
+chmod +x run.sh # if run.sh isn't executable.
 # ./run.sh <num_threads> <config_name> [benchmark_name]
 ./run.sh 1 example.cfg bzip2
 ```
