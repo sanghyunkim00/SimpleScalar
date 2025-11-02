@@ -43,3 +43,6 @@ NOTE: You must create the config file yourself.
 	- spec_create_vector
 	- create_vector_rt
 	- spec_create_vector_rt
+### sim_main()
+- simpulation logic은 sim_outorder.c의 sim_main()에 구현되어있습니다.
+- 해당 함수를 참고하여 SMT를 구현하면 됩니다.
