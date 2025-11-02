@@ -40,9 +40,9 @@ for i in $(seq 1 "$num_threads"); do
   esac
 
   if [ -z "$run_exec" ]; then
-    run_exec="prog $cmd"
+    run_exec="$cmd"
   else
-    run_exec="$run_exec prog $cmd"
+    run_exec="$run_exec -- $cmd"
   fi
 done
 
