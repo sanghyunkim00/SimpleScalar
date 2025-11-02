@@ -1,4 +1,4 @@
-22# SimpleScalar
+# SimpleScalar
 
 # run.sh
 You can run SimpleScalar as follows.
